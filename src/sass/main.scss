@@ -1,6 +1,33 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+@import './utils/variables';
+
+@import './utils/mixins';
+
+@import './utils/placeholders';
 
 @import './vendors/modern-normalize';
+
+@import './base/common';
+
+@import './base/container';
+
+@import './components/button';
+
+@import './components/section-title';
+
+@import './components/section-label';
+
+@import './layouts/hero-header';
+
+@import './layouts/products';
+
+@import './layouts/about';
+
+@import './layouts/advantages';
+
+@import './layouts/gallery';
+
+@import './layouts/customer-reviews';
+
+@import './layouts/contacts';
+
+@import './layouts/footer';
