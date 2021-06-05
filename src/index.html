@@ -7,9 +7,28 @@
     <title>Заголовок страницы</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <include src="./partials/hero-header.html"></include>
+    </header>
+
+    <main>
+      <include src="./partials/products.html"></include>
+
+      <include src="./partials/about.html"></include>
+
+      <include src="./partials/advantages.html"></include>
+
+      <include src="./partials/gallery.html"></include>
+
+      <include src="./partials/customer-reviews.html"></include>
+
+      <include src="./partials/contacts.html"></include>
+    </main>
+
+    <footer>
+      <include src="./partials/footer.html"></include>
+    </footer>
+
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
   </body>
