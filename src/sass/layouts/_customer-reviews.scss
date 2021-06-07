@@ -1,0 +1,68 @@
+.customer-reviews {
+  background-color: #fff;
+
+  &__avatar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
+  }
+
+  &__text-wrap {
+    padding: 43px 66px 26px 57px;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-weight: 500;
+    @include font-size-line-height(12px, 30px);
+    color: var(--text-cl-dark);
+    text-align: center;
+  }
+
+  &__markers-wrap {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 18px;
+  }
+
+  &__markers {
+    position: relative;
+
+    display: block;
+    width: 4px;
+    height: 4px;
+
+    background-color: var(--bg-second-cl-accent);
+    border-radius: 50%;
+  }
+
+  &__markers::before,
+  &__markers::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+
+    background-color: var(--bg-second-cl-accent);
+    border-radius: 50%;
+  }
+
+  &__markers::before {
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+
+  &__markers::after {
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+
+  &__customer-name {
+    font-weight: 500;
+    @include font-size-line-height(14px, 26px);
+    text-align: center;
+    color: var(--text-cl-dark);
+  }
+}
