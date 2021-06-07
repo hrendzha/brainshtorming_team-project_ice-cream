@@ -1,0 +1,114 @@
+.hero{
+    background-color: var(--bg-hero-cl);
+    height: 700px;
+}
+
+.hero__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+// .hero__block{
+//     display: flex;
+// }
+
+.hero__text{
+    display: block;
+    padding-top: 47px;
+    margin-bottom: 25px;
+    width: 277px;
+    font-family: Titan One;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: var(--text-cl-light);
+}
+
+.hero__objects{
+    font-size: 58px;
+    line-height: 1.15;
+    letter-spacing: 0.06em;
+    color: var(--text-cl-accent);
+}
+
+.hero__button{
+    cursor: pointer;
+    padding: 10px 22px;
+    border: none;
+    font-family: DM Sans;
+    background-color: var(--text-cl-light);
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 1.28;
+    align-items: center;
+    text-align: center;
+    color: var(--text-cl-accent);
+
+    &:nth-child(1){
+        margin-right: 15px;
+    }
+
+    &:hover,
+    &:focus{
+        color: var(--text-cl-light);
+        background-color: var(--text-cl-accent);
+    }
+}
+
+.hero__counter{
+    margin-top: 45px;
+}
+
+.hero__paragraph{
+    position: relative;
+    font-family: Titan One;
+    display: block;
+    font-size: 46px;
+    line-height: 1.15;
+    text-align: right;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-cl-accent);
+
+    &::before{
+        content: '';
+        left: 44px;
+        position: absolute;
+        display: block;
+        border-radius: 50%;
+        background-color: var(--text-cl-light);
+        width: 30px;
+        height: 30px;
+    }
+
+    &::after{
+        content: 'cafes';
+        text-transform: initial;
+        position: absolute;
+        font-family: DM Sans;
+        font-size: 12px;
+        line-height: 1.28;       
+        color: var(--text-cl-light);
+        top: 50px;
+        left: 20px;
+    }
+
+        &:nth-child(1){
+            margin-bottom: 38px;
+        }
+}
+
+.hero__paragraph--aftor::after{
+        content: 'food trucks';
+        text-transform: initial; 
+        position: absolute;
+        font-family: DM Sans;
+        font-size: 12px;
+        line-height: 1.28;       
+        color: var(--text-cl-light);
+        width: 115px;
+        top: 50px;
+        left: -55px;
+}
