@@ -1,16 +1,13 @@
 .hero{
     background-color: var(--bg-hero-cl);
-    height: 700px;
+    height: 537px;
 }
 
 .hero__container{
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
-
-// .hero__block{
-//     display: flex;
-// }
 
 .hero__text{
     display: block;
@@ -46,10 +43,6 @@
     text-align: center;
     color: var(--text-cl-accent);
 
-    &:nth-child(1){
-        margin-right: 15px;
-    }
-
     &:hover,
     &:focus{
         color: var(--text-cl-light);
@@ -57,7 +50,24 @@
     }
 }
 
+.hero__active--butt{
+    color: var(--text-cl-light);
+    background-color: var(--text-cl-accent);
+    margin-right: 15px;
+}
+
+.hero__back{
+    top: -75px;
+    width: 540px;
+    height: 540px;
+    background-color: var(--text-cl-second);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 375px;
+}
+
 .hero__counter{
+    margin-right: 18px;
     margin-top: 45px;
 }
 
@@ -74,6 +84,7 @@
 
     &::before{
         content: '';
+        bottom: 28px;
         left: 44px;
         position: absolute;
         display: block;
@@ -111,4 +122,25 @@
         width: 115px;
         top: 50px;
         left: -55px;
+}
+
+.desct__link--figure-1{
+    display: block;
+    position: absolute;
+    bottom: -230px;
+    left: 15px;
+}
+
+.desct__link--figure-2{
+    position: absolute;
+    z-index: 150;
+    top: -20px;
+    right: 345px;
+}
+
+.desct__link--figure-3{
+    display: block;
+    position: absolute;
+    top: 305px;
+    right: 18px;
 }

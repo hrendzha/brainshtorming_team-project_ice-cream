@@ -4,16 +4,21 @@
     background-color: var(--bg-hero-cl);
 }
 
+.head-container{
+    display: flex;
+}
+
 .images-logo{
     padding-bottom: 37px;
     padding-top: 37px;
-    margin-left: 46px;
-    margin-right: 110px;
+    // margin-left: 46px;
+    margin-right: 40px;
 }
 
 .navigation{
     display: flex;
     align-items: center;
+    z-index: 9;
 }
 
 .list{
@@ -51,8 +56,7 @@
     border-radius: 22px;
     padding: 10px 37px;
     display: block;
-    margin-right: 115px;
-    margin-left: 110px;
+    margin-left: 80px;
     background-color: var(--text-cl-light);
     color: var(--text-cl-accent);
     font-family: DM Sans;
