@@ -1,11 +1,12 @@
 <!-- Секція Products -->
 <section class="container products">
-  <span>100% natural</span>
-  <h2 class="products__title">products</h2>
+  <!-- Тичасово ввів стиль content i title для оформлення тексту -->
+  <span class="content">100% natural</span>
+  <h2 class="products__title title">products</h2>
 
-  <ul class="products__card">
-    <li>
-      <picture>
+  <ul class="products__card-set">
+    <li class="products-card">
+      <picture class="products-card__picture">
         <source
           srcset="
             /images/products/products-1_desk.png    1x,
@@ -24,18 +25,18 @@
           media="(max-width: 767.98px)"
           type="image/jpeg"
         />
-        <img src="/images/products/products-1_desk.png" width="270" height="260" alt="Ice cream" />
+        <img src="/images/products/products-1_desk.png" width="335" height="335" alt="Ice cream" />
       </picture>
-      <div class="products__name">
-        <h3>ice cream</h3>
-        <p>
+      <div class="products-card__name products-card--pink">
+        <h3 class="products-card__title">ice cream</h3>
+        <p class="products-card__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et
         </p>
       </div>
     </li>
-    <li>
-      <picture>
+    <li class="products-card">
+      <picture class="products-card__picture">
         <source
           srcset="
             /images/products/products-2_desk.png    1x,
@@ -54,18 +55,18 @@
           media="(max-width: 767.98px)"
           type="image/jpeg"
         />
-        <img src="/images/products/products-2_desk.png" width="270" height="260" alt="Ice coffee" />
+        <img src="/images/products/products-2_desk.png" width="335" height="335" alt="Ice coffee" />
       </picture>
-      <div class="products__name">
-        <h3>ice coffee</h3>
-        <p>
+      <div class="products-card__name products-card--beige">
+        <h3 class="products-card__title">ice coffee</h3>
+        <p class="products-card__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et
         </p>
       </div>
     </li>
-    <li>
-      <picture>
+    <li class="products-card">
+      <picture class="products-card__picture">
         <source
           srcset="
             /images/products/products-3_desk.png    1x,
@@ -84,11 +85,11 @@
           media="(max-width: 767.98px)"
           type="image/jpeg"
         />
-        <img src="/images/products/products-3_desk.png" width="270" height="260" alt="Milkshakes" />
+        <img src="/images/products/products-3_desk.png" width="335" height="335" alt="Milkshakes" />
       </picture>
-      <div class="products__name">
-        <h3>milkshakes</h3>
-        <p>
+      <div class="products-card__name products-card--green">
+        <h3 class="products-card__title">milkshakes</h3>
+        <p class="products-card__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et
         </p>
