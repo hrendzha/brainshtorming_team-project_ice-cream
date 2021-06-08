@@ -1,12 +1,24 @@
 .hero{
     background-color: var(--bg-hero-cl);
     height: 537px;
+
+    @media screen and (min-width: 320px) {
+        height: 456px;
+        overflow: hidden;
+      }
 }
 
 .hero__container{
     position: relative;
     display: flex;
     justify-content: space-between;
+}
+
+.hero__block{
+    @media screen and (min-width: 320px) {
+        z-index: 200;
+        margin-top: 100px;
+      }
 }
 
 .hero__text{
@@ -21,6 +33,13 @@
     font-weight: normal;
     text-transform: uppercase;
     color: var(--text-cl-light);
+
+    @media screen and (min-width: 320px) {
+        width: 220px;
+        font-size: 26px;
+        line-height: 1.15;
+        margin-bottom: 19px;
+      }
 }
 
 .hero__objects{
@@ -28,6 +47,12 @@
     line-height: 1.15;
     letter-spacing: 0.06em;
     color: var(--text-cl-accent);
+
+    @media screen and (min-width: 320px) {
+        font-size: 45px;
+        line-height: 0.86;
+        letter-spacing: 0.04em;
+      }
 }
 
 .hero__button{
@@ -48,12 +73,35 @@
         color: var(--text-cl-light);
         background-color: var(--text-cl-accent);
     }
+
+    @media screen and (min-width: 320px) {
+        font-size: 8px;
+        line-height: 1.25;
+        display: inline-flex;
+        text-align: center;
+        justify-content: center;
+      }
 }
 
 .hero__active--butt{
     color: var(--text-cl-light);
     background-color: var(--text-cl-accent);
     margin-right: 15px;
+
+    @media screen and (min-width: 320px) {
+        width: 62px;
+        height: 24px;
+        margin-right: 5px;
+      }
+}
+
+.hero__tour--main{
+    @media screen and (min-width: 320px) {
+        width: 83px;
+        padding-left: 0;
+        padding-right: 0;
+        height: 24px;
+      }
 }
 
 .hero__back{
@@ -65,11 +113,23 @@
     position: absolute;
     display: block;
     margin-left: 387px;
+
+    @media screen and (min-width: 320px) {
+        display: block;
+        height: 345px;
+        width: 345px;
+        top: 15%;
+        margin-left: 20px;
+      }
 }
 
 .hero__counter{
     margin-right: 18px;
     margin-top: 45px;
+
+    @media screen and (min-width: 320px) {
+        display: none;
+      }
 }
 
 .hero__paragraph{
@@ -129,6 +189,10 @@
     position: absolute;
     bottom: -230px;
     left: 15px;
+
+    @media screen and (min-width: 320px) {
+        display: none;
+      }
 }
 
 .desct__link--figure-2{
@@ -136,6 +200,13 @@
     z-index: 150;
     top: -20px;
     right: 330px;
+
+    @media screen and (min-width: 320px) {
+        height: 410px;
+        width: 170px;
+        top: 55px;
+        left: 110px;
+      }
 }
 
 .desct__link--figure-3{
@@ -143,14 +214,21 @@
     position: absolute;
     top: 305px;
     right: 18px;
+
+    @media screen and (min-width: 320px) {
+        display: none;
+      }
 }
 
 .hero__naturally{
-    
     margin-top: 360px;
     margin-left: 200px;
     display: block;
     position: absolute;
+
+    @media screen and (min-width: 320px) {
+        display: none;
+      }
 }
 
 .hero__lorem{
