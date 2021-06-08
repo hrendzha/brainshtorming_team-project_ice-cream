@@ -1,11 +1,20 @@
 .hero{
     background-color: var(--bg-hero-cl);
     height: 537px;
-    // min-height: 100vh;
+    
 
     @media screen and (min-width: 320px) {
         height: 456px;
         overflow: hidden;
+      }
+
+      @media screen and (min-width: 768px) {
+        overflow: initial;
+        height: 399px;
+      }
+
+      @media screen and (min-width: 1280px) {
+        height: 665px;
       }
 }
 
@@ -24,6 +33,12 @@
     @media screen and (min-width: 320px) {
         z-index: 200;
         margin-top: 100px;
+      }
+
+      @media screen and (min-width: 768px) {
+        margin-top: 0;
+        margin-left: 14px;
+
       }
 }
 
@@ -46,6 +61,16 @@
         line-height: 1.15;
         margin-bottom: 19px;
       }
+
+      @media screen and (min-width: 768px) {
+        margin-bottom: 30px;
+        width: 160px;
+        height: 80px;
+        font-size: 22px;
+        line-height: 1.13;
+        padding: 0;
+        padding-top: 15px;
+      }
 }
 
 .hero__objects{
@@ -58,6 +83,11 @@
         font-size: 45px;
         line-height: 0.86;
         letter-spacing: 0.04em;
+      }
+
+      @media screen and (min-width: 768px) {
+        font-size: 34px;
+        line-height: 1.36;
       }
 }
 
@@ -127,6 +157,15 @@
         top: 15%;
         margin-left: 20px;
       }
+
+      @media screen and (min-width: 768px) {
+        top: -58px;
+        width: 400px;
+        height: 400px;
+        margin-left: 220px;
+        display: block;
+        
+      }
 }
 
 .hero__counter{
@@ -135,6 +174,12 @@
 
     @media screen and (min-width: 320px) {
         display: none;
+      }
+
+      @media screen and (min-width: 768px) {
+        display: block;
+        margin-right: 30px;
+        margin-top: 14px;
       }
 }
 
@@ -199,6 +244,14 @@
     @media screen and (min-width: 320px) {
         display: none;
       }
+
+      @media screen and (min-width: 768px) {
+        display: block;
+        width: 170px;
+        height: 155px;
+        margin-bottom: 30px;
+        margin-left: 14px;
+      }
 }
 
 .desct__link--figure-2{
@@ -213,6 +266,13 @@
         top: 55px;
         left: 110px;
       }
+
+      @media screen and (min-width: 768px) {
+        height: 410px;
+        width: 170px;
+        top: -3px;
+        left: 325px;
+        }
 }
 
 .desct__link--figure-3{
@@ -224,6 +284,14 @@
     @media screen and (min-width: 320px) {
         display: none;
       }
+
+      @media screen and (min-width: 768px) {
+        display: block;
+        height: 163px;
+        width: 198px;
+        top: 242px;
+        left: 540px;
+        }
 }
 
 .hero__naturally{
@@ -235,6 +303,13 @@
     @media screen and (min-width: 320px) {
         display: none;
       }
+
+      @media screen and (min-width: 768px) {
+        display: block;
+        margin-top: 233px;
+        margin-left: 165px;
+        margin-top: 260px;
+      }
 }
 
 .hero__lorem{
@@ -243,6 +318,12 @@
     font-size: 14px;
     line-height: 140%;
     color: var(--text-cl-light);
+
+    @media screen and (min-width: 768px) {
+        font-size: 8px;
+        line-height: 150%;
+        width: 114px;
+            }
 }
 
 .hero__butt--subj{
