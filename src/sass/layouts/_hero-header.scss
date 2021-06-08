@@ -57,13 +57,13 @@
 }
 
 .hero__back{
-    top: -75px;
+    top: -72px;
     width: 540px;
     height: 540px;
     background-color: var(--text-cl-second);
     border-radius: 50%;
     position: absolute;
-    margin-left: 375px;
+    margin-left: 387px;
 }
 
 .hero__counter{
@@ -143,4 +143,39 @@
     position: absolute;
     top: 305px;
     right: 18px;
+}
+
+.hero__naturally{
+    
+    margin-top: 360px;
+    margin-left: 200px;
+    display: block;
+    position: absolute;
+}
+
+.hero__lorem{
+    width: 200px;
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--text-cl-light);
+}
+
+.hero__butt--subj{
+    background-color: var(--text-cl-light);
+    margin-top: 20px;
+    border-radius: 50%;
+    border: none;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus{
+        background-color: var(--bg-second-cl);
+    }
+}
+
+.hero__icons-arrow{
+    margin: 0;
 }
