@@ -1,6 +1,7 @@
 .hero{
     background-color: var(--bg-hero-cl);
     height: 537px;
+    // min-height: 100vh;
 
     @media screen and (min-width: 320px) {
         height: 456px;
@@ -12,6 +13,11 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+
+    // @media screen and (max-width: 768px) {
+    //     z-index: 200;
+    //     margin-top: 100px;
+    //   }
 }
 
 .hero__block{

@@ -29,13 +29,18 @@
             </svg>
         </button>
 </nav>
+<button class="mobile__menu-btn" data-menu-button>
+    <svg class="mobile__menu-svg" width="20" height="20">
+        <use class="mobile__menu-btn-close" href="./images/icons/sprite.svg#icon-cross"></use>
+        <use class="mobile__menu-btn-open" href="./images/icons/sprite.svg#icon-paragraph-justify"></use>
+    </svg>
+</button>
 </div>      
 </header>
 
+
+
 <section class="hero">
-
-    
-
     <div class="container hero__container">      
         <div class="hero__block">
             <h1 class="hero__text">ice cream made with <span class="hero__objects">passion</span></h1>
@@ -97,3 +102,31 @@
         
     </div>
 </section>
+
+<div class="mobile-menu" data-menu>
+    
+        <button class="mobile-menu__button" type="button">Buy now
+            <svg class="mobile-menu__icons-arrow" width="5" height="8">
+                <use href="./images/icons/sprite.svg#icon-arrow-1-icon"></use>
+            </svg>
+        </button>
+        <ul class="items mobile-menu__list">
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link  mobile-menu__active">Home</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">About us</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">How it’s made?</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">Our products</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#" class="mobile-menu__link">Contact</a>
+            </li>
+        </ul>
+
+    
+</div>
