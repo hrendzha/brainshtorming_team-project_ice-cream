@@ -35,6 +35,11 @@
         margin-left: 14px;
 
       }
+
+      @media screen and (min-width: 1280px) {
+        margin-top: 84px;
+
+      }
 }
 
 .hero__text{
@@ -66,6 +71,13 @@
         padding: 0;
         padding-top: 15px;
       }
+
+      @media screen and (min-width: 1280px) {
+        font-size: 38px;
+        line-height: 1.15;
+        letter-spacing: 0.04em;
+        width: 278px;
+      }
 }
 
 .hero__objects{
@@ -83,6 +95,12 @@
       @media screen and (min-width: 768px) {
         font-size: 34px;
         line-height: 1.36;
+      }
+
+      @media screen and (min-width: 1280px) {
+        font-size: 58px;
+        line-height: 66px;
+        letter-spacing: 0.06em;
       }
 }
 
@@ -124,6 +142,16 @@
         height: 24px;
         margin-right: 5px;
       }
+
+      @media screen and (min-width: 1280px) {
+        font-size: 14px;
+        line-height: 1.28;
+        display: flex;
+        width: 102px;
+        height: 40px;
+        margin-top: 110px;
+        margin-right: 0;
+      }
 }
 
 .hero__tour--main{
@@ -132,6 +160,15 @@
         padding-left: 0;
         padding-right: 0;
         height: 24px;
+      }
+
+      @media screen and (min-width: 1280px) {
+        font-size: 14px;
+        line-height: 1.28;
+        width: 140px;
+        height: 40px;
+        margin-top: 110px;
+        margin-left: 15px;
       }
 }
 
@@ -161,6 +198,12 @@
         display: block;
         
       }
+}
+
+.main-hero-butt{
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
 }
 
 .hero__counter{
@@ -247,6 +290,12 @@
         margin-bottom: 30px;
         margin-left: 14px;
       }
+
+      @media screen and (min-width: 1280px) {
+        width: 190px;
+        height: 190px;
+        padding-top: 60px;
+      }
 }
 
 .desct__link--figure-2{
@@ -305,6 +354,13 @@
         margin-left: 165px;
         margin-top: 260px;
       }
+
+      @media screen and (min-width: 1280px) {
+        margin-top: 477px;
+        margin-left: 230px;
+        display: block;
+        position: absolute;
+      }
 }
 
 .hero__lorem{
@@ -318,6 +374,12 @@
         font-size: 8px;
         line-height: 150%;
         width: 114px;
+            }
+
+            @media screen and (min-width: 1280px) {
+              font-size: 14px;
+              line-height: 140%;
+              width: 200px;
             }
 }
 
