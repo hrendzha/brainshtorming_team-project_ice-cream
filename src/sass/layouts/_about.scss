@@ -1,4 +1,6 @@
 .about {
+  padding-top: 130px;
+  padding-bottom: 130px;
   background-color: var(--bg-second-cl);
   width: 100%;
 }
@@ -50,6 +52,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  @media screen {
+  }
 }
 .about__text-wrap {
   @media screen and (max-width: 767px) {
@@ -70,7 +74,9 @@
 }
 .about__paragraph-grey {
   color: var(--text-cl-main);
+  margin-bottom: 45px;
 }
+
 .about__button {
   display: flex;
   align-items: center;

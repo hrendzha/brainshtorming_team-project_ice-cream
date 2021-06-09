@@ -355,6 +355,8 @@ img {
 }
 
 .about {
+  padding-top: 130px;
+  padding-bottom: 130px;
   background-color: var(--bg-second-cl);
   width: 100%;
 }
@@ -453,6 +455,7 @@ img {
 
 .about__paragraph-grey {
   color: var(--text-cl-main);
+  margin-bottom: 45px;
 }
 
 .about__button {
