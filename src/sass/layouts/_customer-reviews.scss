@@ -1,0 +1,156 @@
+.customer-reviews {
+  &__avatar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 19px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__text-wrap {
+    padding: 43px 66px 26px 57px;
+    margin-bottom: 30px;
+
+    background-color: #fafafa;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 24px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__text {
+    position: relative;
+    z-index: 1;
+
+    padding: 0 5px;
+
+    font-weight: 500;
+    @include font-size-line-height(12px, 30.6px);
+    color: var(--text-cl-dark);
+    text-align: center;
+
+    background-image: repeating-linear-gradient(0deg, #e1e1e1 0 1px, transparent 1px 31px);
+
+    @media screen and (min-width: 768px) {
+      @include font-size-line-height(14px, 30.24px);
+      letter-spacing: 0.04em;
+    }
+
+    @media screen and (min-width: 1280px) {
+      @include font-size-line-height(16px, 29.76px);
+    }
+  }
+
+  &__text::before {
+    content: '';
+
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+
+    width: 54px;
+    height: 40px;
+
+    background-image: url(../images/icons/apost.svg);
+
+    @media screen and (min-width: 768px) {
+      left: -15px;
+    }
+  }
+
+  &__markers-wrap {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 18px;
+  }
+
+  &__markers {
+    position: relative;
+
+    display: block;
+    width: 4px;
+    height: 4px;
+
+    background-color: var(--bg-second-cl-accent);
+    border-radius: 50%;
+  }
+
+  &__markers::before,
+  &__markers::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+
+    background-color: var(--bg-second-cl-accent);
+    border-radius: 50%;
+  }
+
+  &__markers::before {
+    position: absolute;
+    top: 0;
+    right: 10px;
+  }
+
+  &__markers::after {
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+
+  &__customer-name {
+    margin-bottom: 30px;
+
+    font-weight: 500;
+    @include font-size-line-height(14px, 26px);
+    text-align: center;
+    color: var(--text-cl-dark);
+
+    @media screen and (min-width: 768px) {
+      @include font-size-line-height(16px, 30px);
+    }
+
+    @media screen and (min-width: 1280px) {
+      @include font-size-line-height(20px, 37px);
+    }
+  }
+}
+
+// slick dots setings
+.slick-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots li:not(:last-child) {
+  margin-right: 18px;
+}
+
+.slick-dots button {
+  width: 12px;
+  height: 12px;
+
+  font-size: 0;
+
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #d9d9d9;
+}
+
+.slick-dots li.slick-active button {
+  background-image: url(../images/icons/home.svg);
+  background-color: transparent;
+  border-radius: 0;
+}
