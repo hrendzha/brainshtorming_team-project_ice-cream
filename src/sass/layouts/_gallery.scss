@@ -1,7 +1,7 @@
 .gallery {
   padding-top: 97px;
   padding-bottom: 80px;
-  background-image: linear-gradient(#fff5f6, #fff5f6 50%, #ffffff 50%, #ffffff 100%);
+  background-image: linear-gradient(#fff5f6, #fff5f6 40%, #ffffff 40%, #ffffff 100%);
 
   @media screen and (min-width: 768px) {
     padding-top: 120px;
@@ -41,7 +41,7 @@
 
     @media screen and (min-width: 1280px) {
       grid-column: 1/2;
-      grid-row: 4/8;
+      grid-row: 4/7;
     }
   }
 
@@ -139,11 +139,7 @@
     width: 100%;
     height: 100%;
 
-    border-radius: 8px;
+    border-radius: 20%;
     object-fit: cover;
-  }
-
-  &__img--obj-pos--right {
-    object-position: right;
   }
 }

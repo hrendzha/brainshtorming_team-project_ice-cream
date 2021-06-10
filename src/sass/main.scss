@@ -14,6 +14,12 @@
 
 @import './components/section-title';
 
+@import './components/section-label';
+
+@import './components/header';
+
+@import './components/mobile-menu';
+
 @import './layouts/hero-header';
 
 @import './layouts/products';
@@ -29,3 +35,5 @@
 @import './layouts/contacts';
 
 @import './layouts/footer';
+
+@import './components/button-scroll-to-top';
