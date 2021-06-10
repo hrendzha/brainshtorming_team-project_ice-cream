@@ -42,7 +42,8 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et
         </p>
-        <div class="products__block-svg">
+
+        <div class="products__block-svg" data-modal-ice-cream-open>
           <svg class="products__content-svg" width="10px" height="10px">
             <use href="./images/icons/sprite.svg#icon-arrow-2-icon"></use>
           </svg>
@@ -89,7 +90,7 @@
           ut labore et
         </p>
 
-        <div class="products__block-svg">
+        <div class="products__block-svg" data-modal-ice-coffee-open>
           <svg class="products__content-svg" width="10px" height="10px">
             <use href="./images/icons/sprite.svg#icon-arrow-2-icon"></use>
           </svg>
@@ -135,7 +136,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et
         </p>
-        <div class="products__block-svg">
+        <div class="products__block-svg" data-modal-milkshakes-open>
           <svg class="products__content-svg" width="10px" height="10px">
             <use href="./images/icons/sprite.svg#icon-arrow-2-icon"></use>
           </svg>
@@ -143,4 +144,80 @@
       </div>
     </li>
   </ul>
+
+  <div class="backdrop backdrop--hidden" data-modal-ice-cream>
+    <div class="modal products-modal products-modal--ice-cream">
+      <button class="modal__btn" data-modal-ice-cream-close>
+        <svg class="modal__btn-icon">
+          <use href="./images/icons/sprite.svg#modal-close"></use>
+        </svg>
+      </button>
+
+      <h3 class="products-card__title products-modal__title">ice cream</h3>
+
+      <svg class="products__svg" width="26px" height="6px">
+        <use href="./images/icons/sprite.svg#icon-round-icon"></use>
+      </svg>
+
+      <p class="products-card__lable products-modal__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at harum ipsum
+        quam sapiente autem. Vitae, soluta necessitatibus tenetur nostrum quae deleniti distinctio
+        fugit quidem amet nesciunt natus accusantium nulla. Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Id repudiandae similique nemo inventore alias odit quo in! Mollitia labore
+        accusamus distinctio delectus deserunt praesentium, iure sed, minima illum laboriosam
+        ratione.
+      </p>
+    </div>
+  </div>
+
+  <div class="backdrop backdrop--hidden" data-modal-ice-coffee>
+    <div class="modal products-modal products-modal--ice-coffee">
+      <button class="modal__btn" data-modal-ice-coffee-close>
+        <svg class="modal__btn-icon">
+          <use href="./images/icons/sprite.svg#modal-close"></use>
+        </svg>
+      </button>
+
+      <h3 class="products-card__title products-modal__title">ice coffee</h3>
+
+      <svg class="products__svg" width="26px" height="6px">
+        <use href="./images/icons/sprite.svg#icon-round-icon"></use>
+      </svg>
+
+      <p class="products-card__lable products-modal__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at harum ipsum
+        quam sapiente autem. Vitae, soluta necessitatibus tenetur nostrum quae deleniti distinctio
+        fugit quidem amet nesciunt natus accusantium nulla. Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit.
+      </p>
+    </div>
+  </div>
+
+  <div class="backdrop backdrop--hidden" data-modal-milkshakes>
+    <div class="modal products-modal products-modal--milkshakes">
+      <button class="modal__btn" data-modal-milkshakes-close>
+        <svg class="modal__btn-icon">
+          <use href="./images/icons/sprite.svg#modal-close"></use>
+        </svg>
+      </button>
+
+      <h3 class="products-card__title products-modal__title">milkshakes</h3>
+
+      <svg class="products__svg" width="26px" height="6px">
+        <use href="./images/icons/sprite.svg#icon-round-icon"></use>
+      </svg>
+
+      <p class="products-card__lable products-modal__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at harum ipsum
+        quam sapiente autem. Vitae, soluta necessitatibus tenetur nostrum quae deleniti distinctio
+        fugit quidem amet nesciunt natus accusantium nulla. Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Id repudiandae similique nemo inventore alias odit quo in! Mollitia labore
+        accusamus distinctio delectus deserunt praesentium, iure sed, minima illum laboriosam
+        ratione. Lorem ipsum dolor
+      </p>
+    </div>
+  </div>
 </section>

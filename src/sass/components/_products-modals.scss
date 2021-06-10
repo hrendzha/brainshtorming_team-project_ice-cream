@@ -1,0 +1,27 @@
+.products-modal {
+  background-position: center;
+  background-size: cover;
+
+  &--ice-cream {
+    background-image: linear-gradient(rgba(255, 184, 202, 0.5), rgba(255, 184, 202, 0.5)),
+      url(../images/modal/modal-bgc-1.jpg);
+  }
+
+  &--ice-coffee {
+    background-image: linear-gradient(rgba(240, 209, 165, 0.5), rgba(240, 209, 165, 0.5)),
+      url(../images/modal/modal-bgc-2.jpg);
+  }
+
+  &--milkshakes {
+    background-image: linear-gradient(rgba(193, 226, 151, 0.5), rgba(193, 226, 151, 0.5)),
+      url(../images/modal/modal-bgc-3.jpg);
+  }
+
+  &__title {
+    font-size: 32px;
+  }
+
+  &__desc {
+    font-size: 18px;
+  }
+}
