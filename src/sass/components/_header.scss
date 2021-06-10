@@ -5,6 +5,8 @@
 }
 
 .head-container{
+    padding-top: 37px;
+    align-items: center;
     display: flex;
 
     @media screen and (max-width: 768px) {
@@ -14,7 +16,6 @@
 
 .images-logo{
     padding-bottom: 37px;
-    padding-top: 37px;
     margin-right: 50px;
 
     @media screen and (min-width: 320px) {
@@ -24,7 +25,6 @@
 
       @media screen and (min-width: 768px) {
           margin: 0;
-        padding-top: 37px;
         margin-left: 15px;
       }
 }
@@ -41,11 +41,6 @@
       @media screen and (min-width: 768px) {
         display: block;
         margin-left: auto;
-        margin-top: 47px;
-      }
-
-      @media screen and (min-width: 1280px) {
-        margin-top: 50px;
       }
 }
 
@@ -66,7 +61,6 @@
 
 
 .link{
-    padding-bottom: 53px;
     padding-top: 53px;
     font-family: DM Sans;
     font-weight: bold;
@@ -90,7 +84,7 @@
 
 .button{
     margin-right: 15px;
-    margin-top: 38px;
+    // margin-top: 38px;
     height: fit-content;
     border-radius: 22px;
     padding: 10px 37px;
