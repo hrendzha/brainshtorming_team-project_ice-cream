@@ -23,6 +23,8 @@
       pointer-events: none;
       visibility: hidden;
     }
+
+
   }
   
   .modal {
@@ -165,12 +167,13 @@
 }
 
 .modal__menu-btn-1{
-    outline: none;
-    cursor: pointer;
-    margin-left: auto;
-    display: flex;
-    border: none;
-    background-color: transparent;
+      outline: none;
+      cursor: pointer;
+      margin-left: auto;
+      display: flex;
+      border: none;
+      background-color: transparent;
+
 
     &:hover .modal__btn,
     &:focus .modal__btn {
