@@ -24,7 +24,7 @@
       </ul>
     </nav>
     <div class="butt-svigge">
-      <button class="button" type="button">
+      <button class="button" type="button" data-modal-open>
         Buy now
         <svg class="icons-arrow" width="4" height="8">
           <use href="./images/icons/sprite.svg#icon-arrow-1-icon"></use>
@@ -62,7 +62,17 @@
       </button>
     </div>
 
-    <span class="hero__back"></span>
+    <div class="hero__naturally">
+      <p class="hero__lorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et
+      </p>
+      <button type="button" class="hero__butt--subj" data-modal-open-1>
+        <svg class="hero__icons-arrow" width="7" height="10">
+          <use href="./images/icons/sprite.svg#icon-arrow-2-icon"></use>
+        </svg>
+      </button>
+    </div>
 
     <ul class="desct__foto">
       <li class="desct__link desct__link--figure-1">
@@ -104,7 +114,7 @@
 </section>
 
 <div class="mobile-menu" data-menu>
-  <button class="mobile-menu__button" type="button">
+  <button class="mobile-menu__button" type="button" data-modal-open>
     Buy now
     <svg class="mobile-menu__icons-arrow" width="5" height="8">
       <use href="./images/icons/sprite.svg#icon-arrow-1-icon"></use>
@@ -127,4 +137,59 @@
       <a href="#" class="mobile-menu__link">Contact</a>
     </li>
   </ul>
+</div>
+
+<!-- backdroup -->
+<div class="backdrop backdrop--hidden" data-modal>
+  <div class="modal modal--bgc">
+    <button class="modal__menu-btn">
+      <svg class="modal__btn" width="20" height="20">
+        <use
+          class="modal__menu-btn-close"
+          href="./images/icons/sprite.svg#icon-cross"
+          data-modal-close
+        ></use>
+      </svg>
+    </button>
+    <h2 class="modal__heading">Ice cream world</h2>
+    <p class="modal__paragraph">
+      Frozen is a food-dessert, which is a mass frozen in the process of continuous beating, which
+      basically contains nutritious, flavoring, aromatic and emulsifying substances [1]. Ice cream
+      is often also referred to as popsicle, obtained by simply freezing fruit and berry juices and
+      mashed potatoes (fruit ice is most often made from an orange). Traditional types of ice cream
+      are prepared on the basis of milk mixtures with certain ratios of milk protein and fat and /
+      or on the basis of frozen juices, fruits and berries. They have a sweet taste due to the use
+      of sugar as one of the main flavoring components, a preservative and a modifier of the
+      rheological properties of the mixture at all stages of the ice cream production process.
+      Agar-agar, gelatin, starch are used as an emulsifying component of industrially produced ice
+      cream. There are ice cream recipes that use egg whites as an emulsifying component.
+    </p>
+
+    <button class="modal__button" type="button">Read more...</button>
+  </div>
+</div>
+
+<div class="backdrop backdrop--hidden" data-modal-1>
+  <div class="modal modal--bggn">
+    <button class="modal__menu-btn-1" data-modal-close-1>
+      <svg class="modal__btn" width="20" height="20">
+        <use class="modal__menu-btn-close" href="./images/icons/sprite.svg#icon-cross"></use>
+      </svg>
+    </button>
+    <h3 class="modal__head">world of ice cream</h3>
+    <p class="modal__parag">
+      Milk is a nutrient fluid produced by the mammary glands of female mammals during lactation.
+      The natural purpose of milk is to feed [1] offspring (including humans), which are not yet
+      capable of digesting other food. Milk is now a component of many products used by humans, and
+      its production has become a major industry. The technical regulation defines milk as a product
+      of normal physiological secretion of the mammary glands of farm animals, obtained from one or
+      more animals during lactation during one or more milking, without any additions to this
+      product
+    </p>
+    <img
+      src="https://image.freepik.com/free-photo/glass-bottle-of-fresh-milk-and-a-glass-with-a-straw-on-a-pink-background-healthy-dairy-products-with-calcium_97716-149.jpg"
+      alt=""
+    />
+    <button class="modal__butt" type="button">Read more...</button>
+  </div>
 </div>
