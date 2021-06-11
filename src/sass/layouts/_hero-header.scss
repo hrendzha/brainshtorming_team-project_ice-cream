@@ -1,6 +1,5 @@
 .hero{
     background-color: var(--bg-hero-cl);
-    // height: 537px;
 
     @media screen and (max-width: 320px) {
         height: 100vh;
@@ -29,6 +28,7 @@
 }
 
 .hero__block{
+    z-index: 2;
 
       @media screen and (max-width: 320px) {
         z-index: 200;
@@ -426,7 +426,7 @@
 
 .desct__link--figure-2{
     position: absolute;
-    z-index: 150;
+    z-index: 1;
     top: -20px;
     right: 330px;
     animation: shakeX;
