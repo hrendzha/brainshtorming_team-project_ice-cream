@@ -74,7 +74,7 @@
     </ul>
     <ul class="contacts__btn-list">
       <li class="contacts__btn-item">
-        <button type="button" class="contacts__button">
+        <button type="button" class="contacts__button" data-modal-open-cont>
           Our Locations
           <svg class="contacts__btn-icon">
             <use href="./images/icons/sprite.svg#icon-arrow-1-icon"></use>
@@ -92,3 +92,18 @@
     </ul>
   </div>
 </section>
+
+<div class="backdrop backdrop--hidden" data-modal-cont>
+  <div class="modal-cont">
+      <button class="modal__menu-btn" data-modal-close-cont>
+          <svg class="modal__btn--svg" width="20" height="20">
+            <use
+              class="modal__menu-btn-close"
+              href="./images/icons/sprite.svg#icon-cross"                
+            ></use>
+          </svg>
+        </button>
+        <iframe class="modal__maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1406022.6434494455!2d30.520990240491496!3d46.50537912920489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zZ29vZ2xlINC60LDRgNGC0LA!5e0!3m2!1sru!2sua!4v1623415989223!5m2!1sru!2sua" width="100%" height="100%"></iframe>
+      
+  </div>
+</div>
