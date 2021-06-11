@@ -33,7 +33,7 @@
         <p class="about__paragraph about__paragraph-grey">
           Aliquam erat volutpat. Aenean accumsan.
         </p>
-        <button class="about__button" type="button">
+        <button class="about__button" type="button" data-modal-open-2>
           Read more
           <svg class="about__icon">
             <use href="./images/icons/sprite.svg#icon-arrow-1-icon"></use>
@@ -69,3 +69,20 @@
     </ul>
   </div>
 </section>
+
+<div class="backdrop backdrop--hidden" data-modal-2>
+    <div class="modal modal--bgclon">
+        <button class="modal__menu-btn" data-modal-close-2>
+            <svg class="modal__btn" width="20" height="20">
+              <use
+                class="modal__menu-btn-close"
+                href="./images/icons/sprite.svg#icon-cross"                
+              ></use>
+            </svg>
+          </button>
+        <h2 class="about__main-text">The benefits of milk</h2>
+        <p class="about__txt-paragraph">A person eats milk almost from birth, so it is difficult to imagine how we would manage without it in adulthood. Milk contains the entire group of lactic acid bacteria: lactobacilli, lactococci, bifidobacteria, etc. They use the process of lactic acid fermentation for their life, that is, they ferment lactose with the subsequent formation of lactic acid. Once in our body, they begin to compete with harmful microorganisms that live in our intestines.
+            “The bacteria in milk are extremely important to us: they produce lactic acid, which kills pests,” says Associate Professor of the Department of Microbiology, Faculty of Biology, Moscow State University. M.V. Lomonosova Elena Vladimirovna Semenova. “The latter are not even always pathogenic, but as a result of their vital activity they accumulate toxic substances inside us”
+        </p>
+    </div>
+</div>

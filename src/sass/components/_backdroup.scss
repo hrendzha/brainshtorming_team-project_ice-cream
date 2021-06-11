@@ -13,15 +13,12 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
-  
+     
     &--hidden {
       opacity: 0;
       pointer-events: none;
       visibility: hidden;
     }
-
-
 }
   
   .modal {
@@ -87,10 +84,18 @@
   
   .backdrop--hidden > .modal {
     transform: scale(1.1);
+
+    @media screen and (min-width: 1280px) {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
   }
 
   .backdrop--hid > .modal {
     transform: scale(1.1);
+
+    @media screen and (min-width: 1280px) {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
   }
 
 
