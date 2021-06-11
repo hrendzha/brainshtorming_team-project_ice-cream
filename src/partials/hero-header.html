@@ -151,21 +151,37 @@
         ></use>
       </svg>
     </button>
-    <h2 class="modal__heading">Ice cream world</h2>
-    <p class="modal__paragraph">
-      Frozen is a food-dessert, which is a mass frozen in the process of continuous beating, which
-      basically contains nutritious, flavoring, aromatic and emulsifying substances [1]. Ice cream
-      is often also referred to as popsicle, obtained by simply freezing fruit and berry juices and
-      mashed potatoes (fruit ice is most often made from an orange). Traditional types of ice cream
-      are prepared on the basis of milk mixtures with certain ratios of milk protein and fat and /
-      or on the basis of frozen juices, fruits and berries. They have a sweet taste due to the use
-      of sugar as one of the main flavoring components, a preservative and a modifier of the
-      rheological properties of the mixture at all stages of the ice cream production process.
-      Agar-agar, gelatin, starch are used as an emulsifying component of industrially produced ice
-      cream. There are ice cream recipes that use egg whites as an emulsifying component.
-    </p>
 
-    <button class="modal__button" type="button">Read more...</button>
+    <form class="forma" autocomplete="off">
+      <h2 class="modal__text">Лучшая продукция именно у нас</h2>
+
+      <label for="name" class="forma__label"><span class="modal__time">Имя</span>
+          <input type="text" name="name" class="modal__group--input" id="name">
+      </label>
+
+      <label for="tel" class="forma__label"><span
+              class="modal__time">Телефон</span>
+          <input type="tel" name="tel" class="modal__group--input" id="tel">
+      </label>
+
+      <label for="email" class="forma__label"><span
+              class="modal__time">Почта</span>
+          <input type="email" name="email" class="modal__group--input" id="email">
+      </label>
+
+
+      <label for="feedback" class="forma__label"><span
+              class="modal__time">Комментарий</span>
+          <textarea class="modal__area" name="feedback" id="feedback"
+              placeholder="Ваши пожелания"></textarea>
+      </label>
+
+      <button type="submit" class="modal__button">Заказать</button>
+
+  </form>
+
+
+
   </div>
 </div>
 
