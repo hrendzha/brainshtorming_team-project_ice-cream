@@ -122,6 +122,7 @@
   }
 
   .modal__menu-btn{
+      outline: none;
       cursor: pointer;
       margin-left: auto;
       display: flex;
@@ -164,6 +165,7 @@
 }
 
 .modal__menu-btn-1{
+    outline: none;
     cursor: pointer;
     margin-left: auto;
     display: flex;
