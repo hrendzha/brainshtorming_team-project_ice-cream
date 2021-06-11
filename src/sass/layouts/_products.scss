@@ -63,8 +63,7 @@
 
 .products-card__picture {
   position: absolute;
-  // width: 100%;
-  // height: 100%;
+  width: 100%;
   max-width: 249px;
   left: 50%;
   transform: translateX(-50%);
@@ -166,6 +165,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  cursor: pointer;
 
   margin-left: auto;
   margin-right: auto;
