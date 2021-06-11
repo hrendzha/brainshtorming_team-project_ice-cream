@@ -1,0 +1,223 @@
+<!-- Секція Products -->
+<section class="container products" id="products">
+  <span class="section__content">100% natural</span>
+  <h2 class="products__title section__title">products</h2>
+
+  <ul class="products__card-set">
+    <li class="products-card">
+      <picture class="products-card__picture">
+        <source
+          srcset="
+            ./images/products/products-1_desktop.png    1x,
+            ./images/products/products-1@2x_desktop.png 2x
+          "
+          media="(min-width: 1280px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./images/products/products-1_tablet.png    1x,
+            ./images/products/products-1@2x_tablet.png 2x
+          "
+          media="(min-width: 768px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./images/products/products-1_mobile.png    1x,
+            ./images/products/products-1@2x_mobile.png 2x
+          "
+          media="(max-width: 767.98px)"
+          type="image/jpeg"
+        />
+        <img src="./images/products/products-1_desktop.png" alt="Ice cream" />
+      </picture>
+      <div class="products-card__name products-card--pink">
+        <h3 class="products-card__title">ice cream</h3>
+        <svg class="products__svg" width="26px" height="6px">
+          <use href="./images/icons/sprite.svg#icon-round-icon"></use>
+        </svg>
+
+        <p class="products-card__lable">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et
+        </p>
+
+        <div class="products__block-svg" data-modal-ice-cream-open>
+          <svg class="products__content-svg" width="10px" height="10px">
+            <use href="./images/icons/sprite.svg#icon-arrow-2-icon"></use>
+          </svg>
+        </div>
+      </div>
+    </li>
+    <li class="products-card">
+      <picture class="products-card__picture">
+        <source
+          srcset="
+            ./images/products/products-2_desktop.png    1x,
+            ./images/products/products-2@2x_desktop.png 2x
+          "
+          media="(min-width: 1280px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./images/products/products-2_tablet.png    1x,
+            ./images/products/products-2@2x_tablet.png 2x
+          "
+          media="(min-width: 768px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./images/products/products-2_mobile.png    1x,
+            ./images/products/products-2@2x_mobile.png 2x
+          "
+          media="(max-width: 767.98px)"
+          type="image/jpeg"
+        />
+        <img src="./images/products/products-2_desktop.png" alt="Ice coffee" />
+      </picture>
+      <div class="products-card__name products-card--beige">
+        <h3 class="products-card__title">ice coffee</h3>
+
+        <svg class="products__svg" width="26px" height="6px">
+          <use href="./images/icons/sprite.svg#icon-round-icon"></use>
+        </svg>
+
+        <p class="products-card__lable">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et
+        </p>
+
+        <div class="products__block-svg" data-modal-ice-coffee-open>
+          <svg class="products__content-svg" width="10px" height="10px">
+            <use href="./images/icons/sprite.svg#icon-arrow-2-icon"></use>
+          </svg>
+        </div>
+      </div>
+    </li>
+    <li class="products-card">
+      <picture class="products-card__picture">
+        <source
+          srcset="
+            ./images/products/products-3_desktop.png    1x,
+            ./images/products/products-3@2x_desktop.png 2x
+          "
+          media="(min-width: 1280px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./images/products/products-3_tablet.png    1x,
+            ./images/products/products-3@2x_tablet.png 2x
+          "
+          media="(min-width: 768px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./images/products/products-3_mobile.png    1x,
+            ./images/products/products-3@2x_mobile.png 2x
+          "
+          media="(max-width: 767.98px)"
+          type="image/jpeg"
+        />
+        <img src="./images/products/products-3_desktop.png" alt="Milkshakes" />
+      </picture>
+      <div class="products-card__name products-card--green">
+        <h3 class="products-card__title">milkshakes</h3>
+
+        <svg class="products__svg" width="26px" height="6px">
+          <use href="./images/icons/sprite.svg#icon-round-icon"></use>
+        </svg>
+
+        <p class="products-card__lable">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et
+        </p>
+        <div class="products__block-svg" data-modal-milkshakes-open>
+          <svg class="products__content-svg" width="10px" height="10px">
+            <use href="./images/icons/sprite.svg#icon-arrow-2-icon"></use>
+          </svg>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+  <div class="backdrop backdrop--hidden" data-modal-ice-cream>
+    <div class="modal products-modal products-modal--ice-cream">
+      <button class="modal__btn" data-modal-ice-cream-close>
+        <svg class="modal__btn-icon">
+          <use href="./images/icons/sprite.svg#modal-close"></use>
+        </svg>
+      </button>
+
+      <h3 class="products-card__title products-modal__title">ice cream</h3>
+
+      <svg class="products__svg" width="26px" height="6px">
+        <use href="./images/icons/sprite.svg#icon-round-icon"></use>
+      </svg>
+
+      <p class="products-card__lable products-modal__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at harum ipsum
+        quam sapiente autem. Vitae, soluta necessitatibus tenetur nostrum quae deleniti distinctio
+        fugit quidem amet nesciunt natus accusantium nulla. Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Id repudiandae similique nemo inventore alias odit quo in! Mollitia labore
+        accusamus distinctio delectus deserunt praesentium, iure sed, minima illum laboriosam
+        ratione.
+      </p>
+    </div>
+  </div>
+
+  <div class="backdrop backdrop--hidden" data-modal-ice-coffee>
+    <div class="modal products-modal products-modal--ice-coffee">
+      <button class="modal__btn" data-modal-ice-coffee-close>
+        <svg class="modal__btn-icon">
+          <use href="./images/icons/sprite.svg#modal-close"></use>
+        </svg>
+      </button>
+
+      <h3 class="products-card__title products-modal__title">ice coffee</h3>
+
+      <svg class="products__svg" width="26px" height="6px">
+        <use href="./images/icons/sprite.svg#icon-round-icon"></use>
+      </svg>
+
+      <p class="products-card__lable products-modal__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at harum ipsum
+        quam sapiente autem. Vitae, soluta necessitatibus tenetur nostrum quae deleniti distinctio
+        fugit quidem amet nesciunt natus accusantium nulla. Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit.
+      </p>
+    </div>
+  </div>
+
+  <div class="backdrop backdrop--hidden" data-modal-milkshakes>
+    <div class="modal products-modal products-modal--milkshakes">
+      <button class="modal__btn" data-modal-milkshakes-close>
+        <svg class="modal__btn-icon">
+          <use href="./images/icons/sprite.svg#modal-close"></use>
+        </svg>
+      </button>
+
+      <h3 class="products-card__title products-modal__title">milkshakes</h3>
+
+      <svg class="products__svg" width="26px" height="6px">
+        <use href="./images/icons/sprite.svg#icon-round-icon"></use>
+      </svg>
+
+      <p class="products-card__lable products-modal__desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus at harum ipsum
+        quam sapiente autem. Vitae, soluta necessitatibus tenetur nostrum quae deleniti distinctio
+        fugit quidem amet nesciunt natus accusantium nulla. Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Id repudiandae similique nemo inventore alias odit quo in! Mollitia labore
+        accusamus distinctio delectus deserunt praesentium, iure sed, minima illum laboriosam
+        ratione. Lorem ipsum dolor
+      </p>
+    </div>
+  </div>
+</section>
