@@ -23,12 +23,6 @@
       pointer-events: none;
       visibility: hidden;
     }
-
-    // &--hid {
-    //   opacity: 0;
-    //   pointer-events: none;
-    //   visibility: hidden;
-    // }
   }
   
   .modal {
@@ -156,6 +150,7 @@
 
 
 .modal__head{
+  font-size: 30px;
   font-family: Titan One;
     color: #ff70b1;
     text-align: center;
