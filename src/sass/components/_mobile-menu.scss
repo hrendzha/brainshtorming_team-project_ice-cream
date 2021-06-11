@@ -16,6 +16,11 @@
     @media screen and (min-width: 1280px) {
         display: none;
       }
+
+}
+.mobile-menu__link .is-open .mobile-menu {
+    display: none;
+
 }
 
 .items{
